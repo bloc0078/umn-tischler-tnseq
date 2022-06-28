@@ -1,7 +1,7 @@
 library(Tnseq)
 library(readr)
 
-myco_input <- read_delim("_volcano.txt",
+myco_input <- read_delim("tnseqdiff_readcount_table.txt",
                          "\t", escape_double = FALSE, col_names = FALSE,
 trim_ws = TRUE)
 xx<-list()
